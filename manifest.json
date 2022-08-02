@@ -1,0 +1,38 @@
+{
+  "name": "Fake Twitter POC",
+  "version": "1.0",
+  "description": "Fake Twitter POC",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "permissions": [
+    "tabs",
+    "storage",
+    "cookies",
+    "activeTab",
+    "scripting"
+  ],
+  "icons": {
+    "16": "images/fake-profile-detect.png",
+    "48": "images/fake-profile-detect.png",
+    "128": "images/fake-profile-detect.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://twitter.com/*"
+      ],
+      "js": [
+        "jquery-3.5.1.min.js"
+      ]
+    }
+  ],
+  "browser_action": {
+    "default_title": "Fake Twitter POC",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}

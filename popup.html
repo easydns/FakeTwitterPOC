@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body{
+            margin: 25px!important;
+            width:350px;
+        }
+        .row{
+            margin:5px;
+        }
+        img{
+            width:50px;
+            border-radius:50%;
+            border: solid 2px red;
+        }
+        #result{
+            color:red;
+        }
+    </style>
+    <script src="jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <script src="bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <button class="btn btn-primary form-control" id="start">Check Account</button>
+        </div>
+        <div class="row">
+            <div class="col-4 text-right">
+                <img alt="Opens profile photo" src="images/fake-profile-detect.png" id="avatar">
+            </div>
+            <div class="col-8">
+                <h1 id="result">
+                    <i class="fa fa-question" aria-hidden="true"></i>
+                    <i class="fa fa-check" aria-hidden="true" style="display:none"></i>
+                    <i class="fa fa-close" aria-hidden="true" style="display:none"></i>
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 text-right">
+                <label>name</label>
+            </div>
+            <div class="col-8">
+                <input id="name"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 text-right">
+                <label>screen_name</label>
+            </div>
+            <div class="col-8">
+                <input id="screen_name"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 text-right">
+                <label>description</label>
+            </div>
+            <div class="col-8">
+                <input id="description"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 text-right">
+                <label>location</label>
+            </div>
+            <div class="col-8">
+                <input id="locatin"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 text-right">
+                <label>url</label>
+            </div>
+            <div class="col-8">
+                <input id="url"/>
+            </div>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
