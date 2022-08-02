@@ -18,7 +18,7 @@ Then for any Twitter profile you control:
 2) In the DNS settings for that domain create a TXT record: for **{Twitterhandle}.\_twitter** with value **{Twitterhandle}**
 3) Create another TXT record with a wildcard: **\*.\_twitter** with any other value than a valid Twitter handle under this domain, i.e. **"fake"** or **"null"**
 
-When you go to your Twitter profile page in Chrome and click on the plugin icon, press the "Check Account" button and if the DNS is in place you should get an indication that the account is valid.
+When you go to your Twitter profile page in Chrome and click on the plugin icon, press the "Check Account" button and if the DNS is in place you should get an indication that the account is valid and a bright red "X" if the Twitter handle doesn't match the one asserted in the DNS.
 
 Examples:
 
