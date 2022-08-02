@@ -15,8 +15,8 @@ Instructions:
 Then for any Twitter profile you control:
 
 1) Set your home domain / URL in the URL field of your Twitter profile
-2) In the DNS settings for that domain create a TXT record: for {Twitterhandle}.\_twitter with value {Twitterhandle}
-3) Create another TXT record with a wildcard: \*.\_twitter with any other value than your Twitter handle, i.e. "fake" or "null"
+2) In the DNS settings for that domain create a TXT record: for **{Twitterhandle}.\_twitter** with value **{Twitterhandle}**
+3) Create another TXT record with a wildcard: **\*.\_twitter** with any other value than a valid Twitter handle under this domain, i.e. **"fake"** or **"null"**
 
 When you go to your Twitter profile page in Chrome and click on the plugin icon, press the "Check Account" button and if the DNS is in place you should get an indication that the account is valid.
 
