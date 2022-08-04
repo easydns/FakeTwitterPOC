@@ -1,7 +1,9 @@
 # FakeTwitterPOC
 Fake Twitter Profile detection proof-of-concept Chrome extension
 
-This is the accompanying plug-in code to the Bitcoin Magazine article (insert URL when available)
+This is the accompanying plug-in code to the Bitcoin Magazine article:
+
+https://bitcoinmagazine.com/technical/simplifying-bitcoin-addresses-dns
 
 Instructions:
 
